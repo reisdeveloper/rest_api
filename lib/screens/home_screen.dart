@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Temperature: ${res.temp} C° ',
+                        'Temperatura: ${res.temp} C° ',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 21,
@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Text(
-                        'Date: ${res.date}',
+                        'Data: ${res.date}',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 21,
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Text(
-                        'Description: ${res.description}',
+                        'Clima: ${res.description}',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 19,
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Text(
-                        'City: ${res.city}',
+                        'Cidade: ${res.city}',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 21,
